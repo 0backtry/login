@@ -13,6 +13,51 @@
             <meta property="og:title" content="backtry">
             <link rel="stylesheet" href="https://raw.githubusercontent.com/0backtry/backtry/main/css/sH.css">
             <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/0backtry/backtry/main/favicon/favicon.ico">
+            GNU nano 6.3                      index.html                      Modified
+            <script type="text/javascript" src="contact/js/jquery-1.2.6.min.j>
+            <script type="text/javascript" src="contact/js/jquery.validate.js>
+            <script type="text/javascript">
+                $(document).ready(function(){
+
+                    $("#formLeft .input-bg").hover(function() {
+                        $(this).addClass("active");
+                    }, function() {
+                        $(this).removeClass("active");
+                    });
+
+                    $("#formLeft input").focus(function() {
+
+                        $(this).parent().addClass("active");
+                    });
+                    $("#formLeft input").blur(function() {
+                        $("#formLeft .input-bg").removeClass("active");
+                    });
+
+                    $("#formRight .message-bg").hover(function() {
+                        $(this).addClass("active");
+                    }, function() {
+                        $(this).removeClass("active");
+                    });
+
+                    $("#formRight textarea").focus(function() {
+                        $(this).parent().addClass("active");
+                    });
+                    $("#formRight textarea").blur(function() {
+                        $("#formRight .message-bg").removeClass("active");
+                    });
+
+                    $("#commentForm").validate();
+                });
+
+                const prefersDarkScheme = window.matchMedia("(prefers-color-s>
+
+                if (prefersDarkScheme.matches) {
+                      document.body.classList.add("dark-theme");
+                }
+                else {
+                document.body.classList.add("dark-theme");
+                }
+            </script>
         </div>
     </head>
     <body class="body">
